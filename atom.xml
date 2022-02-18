@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jswsq.github.io</id>
     <title>教师微社区</title>
-    <updated>2021-12-23T02:25:02.185Z</updated>
+    <updated>2022-02-18T03:02:03.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jswsq.github.io"/>
     <link rel="self" href="https://jswsq.github.io/atom.xml"/>
     <subtitle>教师导航</subtitle>
     <logo>https://jswsq.github.io/images/avatar.png</logo>
     <icon>https://jswsq.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 教师微社区</rights>
+    <rights>All rights reserved 2022, 教师微社区</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://jswsq.github.io/post/hello-gridea/</id>
