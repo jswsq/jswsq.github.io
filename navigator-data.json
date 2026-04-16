@@ -1,0 +1,1095 @@
+{
+  "sites": [
+    {
+      "id": 1,
+      "name": "百度",
+      "desc": "搜索引擎",
+      "category": "搜索",
+      "url": "https://www.baidu.com"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "desc": "搜索引擎",
+      "category": "搜索",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 3,
+      "name": "Bing",
+      "desc": "微软搜索引擎",
+      "category": "搜索",
+      "url": "https://www.bing.com"
+    },
+    {
+      "id": 4,
+      "name": "淘宝",
+      "desc": "购物平台",
+      "category": "电商",
+      "url": "https://www.taobao.com"
+    },
+    {
+      "id": 5,
+      "name": "京东",
+      "desc": "综合购物",
+      "category": "电商",
+      "url": "https://www.jd.com"
+    },
+    {
+      "id": 6,
+      "name": "拼多多",
+      "desc": "社交电商",
+      "category": "电商",
+      "url": "https://www.pinduoduo.com"
+    },
+    {
+      "id": 7,
+      "name": "微博",
+      "desc": "社交媒体",
+      "category": "社交",
+      "url": "https://weibo.com"
+    },
+    {
+      "id": 8,
+      "name": "微信",
+      "desc": "即时通讯",
+      "category": "社交",
+      "url": "https://weixin.qq.com"
+    },
+    {
+      "id": 9,
+      "name": "抖音",
+      "desc": "短视频",
+      "category": "视频",
+      "url": "https://www.douyin.com"
+    },
+    {
+      "id": 10,
+      "name": "B站",
+      "desc": "视频弹幕",
+      "category": "视频",
+      "url": "https://www.bilibili.com"
+    },
+    {
+      "id": 11,
+      "name": "YouTube",
+      "desc": "视频网站",
+      "category": "视频",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "id": 12,
+      "name": "知乎",
+      "desc": "问答社区",
+      "category": "社区",
+      "url": "https://www.zhihu.com"
+    },
+    {
+      "id": 13,
+      "name": "GitHub",
+      "desc": "代码托管",
+      "category": "开发",
+      "url": "https://github.com"
+    },
+    {
+      "id": 14,
+      "name": "Stack Overflow",
+      "desc": "技术问答",
+      "category": "开发",
+      "url": "https://stackoverflow.com"
+    },
+    {
+      "id": 15,
+      "name": "网易云音乐",
+      "desc": "音乐播放",
+      "category": "音乐",
+      "url": "https://music.163.com"
+    },
+    {
+      "id": 16,
+      "name": "QQ音乐",
+      "desc": "音乐平台",
+      "category": "音乐",
+      "url": "https://y.qq.com"
+    },
+    {
+      "id": 17,
+      "name": "小红书",
+      "desc": "生活方式",
+      "category": "社区",
+      "url": "https://www.xiaohongshu.com"
+    },
+    {
+      "id": 18,
+      "name": "今日头条",
+      "desc": "资讯推荐",
+      "category": "资讯",
+      "url": "https://www.toutiao.com"
+    },
+    {
+      "id": 101,
+      "name": "科普平台",
+      "desc": "校内科普视频点播平台",
+      "category": "科学资源",
+      "url": "http://111.39.168.102:81/"
+    },
+    {
+      "id": 102,
+      "name": "生物3D模型",
+      "desc": "",
+      "category": "科学资源",
+      "url": "https://sketchfab.com/ffishAsia-and-floraZia"
+    },
+    {
+      "id": 103,
+      "name": "虚拟实验",
+      "desc": "",
+      "category": "科学资源",
+      "url": "https://vr.21cnjy.com/course/index#/"
+    },
+    {
+      "id": 104,
+      "name": "天地图",
+      "desc": "在线地图",
+      "category": "科学资源",
+      "url": "https://map.tianditu.gov.cn/"
+    },
+    {
+      "id": 105,
+      "name": "中国数字科技馆",
+      "desc": "",
+      "category": "科学资源",
+      "url": "https://www.cdstm.cn/"
+    },
+    {
+      "id": 106,
+      "name": "3D资源",
+      "desc": "3D资源",
+      "category": "科学资源",
+      "url": "https://mozaweb.yuanlai.cn/zh/lexikon.php?cmd=getlist&let=3D&sid=BIO"
+    },
+    {
+      "id": 107,
+      "name": "科普教育",
+      "desc": "",
+      "category": "科学资源",
+      "url": "https://basic.smartedu.cn/schoolService/kpjy/catalog"
+    },
+    {
+      "id": 108,
+      "name": "科教资源",
+      "desc": "",
+      "category": "科学资源",
+      "url": "https://www.cyscc.org/#/resource/resourceList"
+    },
+    {
+      "id": 109,
+      "name": "虚拟科技馆",
+      "desc": "虚拟科技馆",
+      "category": "科学资源",
+      "url": "https://xnmy.cdstm.cn/"
+    },
+    {
+      "id": 201,
+      "name": "deepseek官网",
+      "desc": "deepseek官网",
+      "category": "AI写作",
+      "url": "https://www.deepseek.com/"
+    },
+    {
+      "id": 202,
+      "name": "墨得问题",
+      "desc": "论文写作",
+      "category": "AI写作",
+      "url": "https://xiezuomowenti.com/"
+    },
+    {
+      "id": 203,
+      "name": "教师AI应用手册2.0",
+      "desc": "深圳福田AI先锋队",
+      "category": "AI写作",
+      "url": "https://docs.qq.com/doc/DSG9SWFpjVXl3aHZ1"
+    },
+    {
+      "id": 204,
+      "name": "Flowith AI",
+      "desc": "NanoBananaPro.FREEforallusers.",
+      "category": "AI写作",
+      "url": "https://flowith.net/"
+    },
+    {
+      "id": 205,
+      "name": "飞象老师",
+      "desc": "动画、教案生成",
+      "category": "AI写作",
+      "url": "https://www.feixianglaoshi.com/"
+    },
+    {
+      "id": 206,
+      "name": "知达AI助教",
+      "desc": "教育智能体广场",
+      "category": "AI写作",
+      "url": "https://www.zida.school/"
+    },
+    {
+      "id": 207,
+      "name": "AskManyAI",
+      "desc": "一个免费的AI超级生产力平台",
+      "category": "AI写作",
+      "url": "https://askmany.cn/"
+    },
+    {
+      "id": 208,
+      "name": "天工AI",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.tiangong.cn/"
+    },
+    {
+      "id": 209,
+      "name": "扣子商店",
+      "desc": "扣子智能体",
+      "category": "AI写作",
+      "url": "https://www.coze.cn/store/agent?cate_type=recommend"
+    },
+    {
+      "id": 210,
+      "name": "浦育平台",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.openinnolab.org.cn/pjedu/home"
+    },
+    {
+      "id": 211,
+      "name": "AI教师知识库",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://uq77hpwvx7i.feishu.cn/wiki/XUSRwLa1HiDY6tkIkCpcusNdn6g"
+    },
+    {
+      "id": 212,
+      "name": "百度AI",
+      "desc": "免登录",
+      "category": "AI写作",
+      "url": "https://chat.baidu.com/"
+    },
+    {
+      "id": 213,
+      "name": "扣子空间",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://space.coze.cn/"
+    },
+    {
+      "id": 214,
+      "name": "问小白",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.wenxiaobai.com/"
+    },
+    {
+      "id": 215,
+      "name": "国家超算中心",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.scnet.cn/ui/chatbot/"
+    },
+    {
+      "id": 216,
+      "name": "AI文档助手",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://docs.qq.com/ai"
+    },
+    {
+      "id": 217,
+      "name": "飞书",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.feishu.cn/"
+    },
+    {
+      "id": 218,
+      "name": "纳米搜索",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://www.n.cn/"
+    },
+    {
+      "id": 219,
+      "name": "腾讯元宝",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://yuanbao.tencent.com/"
+    },
+    {
+      "id": 220,
+      "name": "灵犀",
+      "desc": "WPS官方deepseekR1",
+      "category": "AI写作",
+      "url": "https://lingxi.wps.cn/"
+    },
+    {
+      "id": 221,
+      "name": "睿云教学大模型",
+      "desc": "教师研修网旗下教学大模型",
+      "category": "AI写作",
+      "url": "https://ai.yanxiu.com/assistant-agents/class-teacher/ai"
+    },
+    {
+      "id": 222,
+      "name": "Bloom",
+      "desc": "希沃AI课件助手",
+      "category": "AI写作",
+      "url": "https://bloom.seewo.com/"
+    },
+    {
+      "id": 223,
+      "name": "秘塔搜索",
+      "desc": "秘塔AI搜索",
+      "category": "AI写作",
+      "url": "https://metaso.cn/"
+    },
+    {
+      "id": 224,
+      "name": "通义千问",
+      "desc": "阿里云旗下AI",
+      "category": "AI写作",
+      "url": "https://www.tongyi.com/discover"
+    },
+    {
+      "id": 225,
+      "name": "kimi.ai",
+      "desc": "",
+      "category": "AI写作",
+      "url": "https://kimi.moonshot.cn/"
+    },
+    {
+      "id": 226,
+      "name": "星火",
+      "desc": "科大讯飞旗下AI",
+      "category": "AI写作",
+      "url": "https://xinghuo.xfyun.cn/"
+    },
+    {
+      "id": 227,
+      "name": "文心一言",
+      "desc": "文心一言",
+      "category": "AI写作",
+      "url": "https://yiyan.baidu.com/"
+    },
+    {
+      "id": 228,
+      "name": "豆包",
+      "desc": "抖音旗下AI",
+      "category": "AI写作",
+      "url": "https://www.doubao.com/chat/"
+    },
+    {
+      "id": 229,
+      "name": "智普清言",
+      "desc": "智普清言",
+      "category": "AI写作",
+      "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh"
+    },
+    {
+      "id": 301,
+      "name": "AI换脸",
+      "desc": "图片、视频换脸",
+      "category": "AI图像",
+      "url": "https://deepswapface.ai/zh-CN/"
+    },
+    {
+      "id": 303,
+      "name": "腾讯混元3D",
+      "desc": "",
+      "category": "AI图像",
+      "url": "https://3d.hunyuan.tencent.com/"
+    },
+    {
+      "id": 304,
+      "name": "Raphael AI",
+      "desc": "无限制免费生图",
+      "category": "AI图像",
+      "url": "https://raphael.app/zh"
+    },
+    {
+      "id": 402,
+      "name": "VideoSeek",
+      "desc": "在线视频总结",
+      "category": "AI视频",
+      "url": "https://www.videoseek.ai/"
+    },
+    {
+      "id": 403,
+      "name": "海螺AI",
+      "desc": "视频、语音",
+      "category": "AI视频",
+      "url": "https://hailuoai.com/"
+    },
+    {
+      "id": 404,
+      "name": "Noiz",
+      "desc": "声音克隆",
+      "category": "AI视频",
+      "url": "https://noiz.ai/landing"
+    },
+    {
+      "id": 405,
+      "name": "即梦",
+      "desc": "",
+      "category": "AI视频",
+      "url": "https://jimeng.jianying.com/"
+    },
+    {
+      "id": 406,
+      "name": "可灵",
+      "desc": "",
+      "category": "AI视频",
+      "url": "https://app.klingai.com/cn/"
+    },
+    {
+      "id": 501,
+      "name": "通义万相",
+      "desc": "免费数字人动作复刻",
+      "category": "AI数字人",
+      "url": "https://tongyi.aliyun.com/wan/explore"
+    },
+    {
+      "id": 502,
+      "name": "飞影数字人",
+      "desc": "",
+      "category": "AI数字人",
+      "url": "https://hifly.cc/"
+    },
+    {
+      "id": 503,
+      "name": "蝉镜",
+      "desc": "数字人创作",
+      "category": "AI数字人",
+      "url": "https://www.chanjing.cc/"
+    },
+    {
+      "id": 504,
+      "name": "腾讯智影",
+      "desc": "",
+      "category": "AI数字人",
+      "url": "https://zenvideo.qq.com/"
+    },
+    {
+      "id": 601,
+      "name": "国家智慧教育平台",
+      "desc": "国家智慧教育公共服务平台",
+      "category": "教学资源",
+      "url": "https://www.smartedu.cn/"
+    },
+    {
+      "id": 602,
+      "name": "皖教云",
+      "desc": "皖教云",
+      "category": "教学资源",
+      "url": "http://www.ahedu.cn"
+    },
+    {
+      "id": 603,
+      "name": "淮南智慧教育云",
+      "desc": "淮南智慧教育云平台",
+      "category": "教学资源",
+      "url": "http://hnk12.net/"
+    },
+    {
+      "id": 604,
+      "name": "中华精品字库工程",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://www.smartedu.cn/home/servicehall?name=%E7%B2%BE%E5%93%81%E5%AD%97%E5%BA%93%E6%9C%8D%E5%8A%A1"
+    },
+    {
+      "id": 605,
+      "name": "汉字信息服务",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://www.smartedu.cn/home/servicehall?name=%E6%B1%89%E5%AD%97%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1"
+    },
+    {
+      "id": 606,
+      "name": "中小学信息科技教育",
+      "desc": "安徽信息科技资源下载",
+      "category": "教学资源",
+      "url": "http://www.ahjks.cn/"
+    },
+    {
+      "id": 607,
+      "name": "立创开源硬件平台",
+      "desc": "创新案例",
+      "category": "教学资源",
+      "url": "https://oshwhub.com/"
+    },
+    {
+      "id": 608,
+      "name": "鳍迹课件",
+      "desc": "收费",
+      "category": "教学资源",
+      "url": "https://qij.pptx.cn/"
+    },
+    {
+      "id": 609,
+      "name": "优翼网",
+      "desc": "课件、教案免费下",
+      "category": "教学资源",
+      "url": "https://yy.youyi800.com/web/home"
+    },
+    {
+      "id": 610,
+      "name": "深圳作业设计样例",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://zy.szedu.cn/was5/web/search?page=1&channelid=219961&searchword=%E4%BD%9C%E4%B8%9A&keyword=%E4%BD%9C%E4%B8%9A&perpage=10&outlinepage=4"
+    },
+    {
+      "id": 611,
+      "name": "广东省2024年获奖微课",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://srsc.gdedu.gov.cn/dnActivity/activityDetailPages?activityAreaId=1751859663382908965"
+    },
+    {
+      "id": 612,
+      "name": "广东省融合创新教学应用案例",
+      "desc": "2024年",
+      "category": "教学资源",
+      "url": "https://srsc.gdedu.gov.cn/dnActivity/activityDetailPages?activityAreaId=1751861860510339074"
+    },
+    {
+      "id": 613,
+      "name": "河北实验说课案例",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://syjx.mh.chaoxing.com/engine2/d/16778191/1716478/0?t=4532591&p=263550&pageId=263550&websiteId=155607&wfwfid=191864"
+    },
+    {
+      "id": 614,
+      "name": "安徽班主任基本功大赛",
+      "desc": "2021年",
+      "category": "教学资源",
+      "url": "https://www.ahedu.cn/EduResource/index.php?app=acy&mod=ResList&act=index&acy_name=jiaoshijbg2021"
+    },
+    {
+      "id": 615,
+      "name": "安徽省作业设计大赛",
+      "desc": "2022年",
+      "category": "教学资源",
+      "url": "https://www.ahedu.cn/EduResource/index.php?app=acy&mod=Index&act=index&acy_name=jobdesign2022"
+    },
+    {
+      "id": 616,
+      "name": "畅言智AI",
+      "desc": "人工智能教学平台",
+      "category": "教学资源",
+      "url": "https://ai.changyan.com/"
+    },
+    {
+      "id": 617,
+      "name": "七彩课堂",
+      "desc": "课件、教案免费下载",
+      "category": "教学资源",
+      "url": "https://www.timebook.cc/ziyuan"
+    },
+    {
+      "id": 618,
+      "name": "之江汇互联网学校",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://szyx.zjer.cn/micro/web/internetSchool/"
+    },
+    {
+      "id": 619,
+      "name": "全国中小学实验在线平台",
+      "desc": "",
+      "category": "教学资源",
+      "url": "https://www.syzx-edu.com/"
+    },
+    {
+      "id": 620,
+      "name": "安徽信息技术教学平台",
+      "desc": "",
+      "category": "教学资源",
+      "url": "http://www.it-teaching.com/material.html"
+    },
+    {
+      "id": 621,
+      "name": "吾课网",
+      "desc": "课件下载",
+      "category": "教学资源",
+      "url": "https://www.wookey.cn/"
+    },
+    {
+      "id": 701,
+      "name": "中国电子协会",
+      "desc": "",
+      "category": "教师提升",
+      "url": "https://px.cie.org.cn/"
+    },
+    {
+      "id": 702,
+      "name": "中国青少年科技协会",
+      "desc": "",
+      "category": "教师提升",
+      "url": "https://www.cacsi.org.cn/"
+    },
+    {
+      "id": 703,
+      "name": "科技学堂",
+      "desc": "",
+      "category": "教师提升",
+      "url": "https://www.sciclass.cn/"
+    },
+    {
+      "id": 704,
+      "name": "AI光影社",
+      "desc": "",
+      "category": "教师提升",
+      "url": "https://airadiance.cn/"
+    },
+    {
+      "id": 705,
+      "name": "微信小程序教育平台",
+      "desc": "",
+      "category": "教师提升",
+      "url": "https://edu.weixin.qq.com/"
+    },
+    {
+      "id": 801,
+      "name": "打字鸭",
+      "desc": "",
+      "category": "教学软件",
+      "url": "https://daziya.com/"
+    },
+    {
+      "id": 802,
+      "name": "哪吒打字",
+      "desc": "",
+      "category": "教学软件",
+      "url": "https://www.nezhadazi.com/"
+    },
+    {
+      "id": 803,
+      "name": "focusky",
+      "desc": "课件、微课制作",
+      "category": "教学软件",
+      "url": "https://www.focusky.com.cn/"
+    },
+    {
+      "id": 804,
+      "name": "希沃白板",
+      "desc": "web版的希沃白板，应急使用",
+      "category": "教学软件",
+      "url": "https://enweb.seewo.com/"
+    },
+    {
+      "id": 805,
+      "name": "希沃白板",
+      "desc": "希沃白板",
+      "category": "教学软件",
+      "url": "https://easinote.seewo.com/"
+    },
+    {
+      "id": 901,
+      "name": "青少年科学调查体验活动",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://www.cyscc.org/dctyhd/#/home"
+    },
+    {
+      "id": 902,
+      "name": "全国信息素养提升实践活动",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://huodong.ncet.edu.cn/"
+    },
+    {
+      "id": 903,
+      "name": "全国青少年劳动技能与智能设计大赛",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "http://aild.org.cn/"
+    },
+    {
+      "id": 904,
+      "name": "科学影像节",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://yxj.cacsi.org.cn/"
+    },
+    {
+      "id": 905,
+      "name": "科普创新大赛",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://kepudasai.cdstm.cn/"
+    },
+    {
+      "id": 906,
+      "name": "全国青少年信息素养大赛",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://ceic.kpcb.org.cn/"
+    },
+    {
+      "id": 907,
+      "name": "全国青少年通信科技创新大赛",
+      "desc": "中国芯助力中国梦",
+      "category": "科创类赛事",
+      "url": "https://www.ict-edu.org.cn/cms/main/cmsIndex"
+    },
+    {
+      "id": 908,
+      "name": "全国青少年无人机大赛",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://www.int-ede.com/"
+    },
+    {
+      "id": 909,
+      "name": "腾讯扣叮",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://coding.qq.com/"
+    },
+    {
+      "id": 910,
+      "name": "AI创想家",
+      "desc": "",
+      "category": "科创类赛事",
+      "url": "https://ai-arena.qq.com/intro"
+    },
+    {
+      "id": 1001,
+      "name": "帮小忙",
+      "desc": "腾讯旗下全能工具箱",
+      "category": "图文处理",
+      "url": "https://tool.browser.qq.com/"
+    },
+    {
+      "id": 1002,
+      "name": "BgSub",
+      "desc": "一键抠图",
+      "category": "图文处理",
+      "url": "https://zh.bgsub.com/webapp/"
+    },
+    {
+      "id": 1003,
+      "name": "imagestool",
+      "desc": "图片处理",
+      "category": "图文处理",
+      "url": "https://imagestool.com/zh_CN/"
+    },
+    {
+      "id": 1004,
+      "name": "办公汇",
+      "desc": "PDF处理、word、excel模板",
+      "category": "图文处理",
+      "url": "https://www.bgbgh.com/pdf/"
+    },
+    {
+      "id": 1005,
+      "name": "百度图片",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://image.baidu.com/"
+    },
+    {
+      "id": 1006,
+      "name": "图片压缩",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://tinify.cn/"
+    },
+    {
+      "id": 1007,
+      "name": "AI抠图",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://photokit.com/editor/?lang=zh"
+    },
+    {
+      "id": 1008,
+      "name": "创客贴",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://www.chuangkit.com/"
+    },
+    {
+      "id": 1009,
+      "name": "魔法擦除",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://magicstudio.com/zh/magiceraser/"
+    },
+    {
+      "id": 1010,
+      "name": "稿定设计",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://www.gaoding.com/"
+    },
+    {
+      "id": 1011,
+      "name": "pdf24 tools",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://tools.pdf24.org/zh/"
+    },
+    {
+      "id": 1012,
+      "name": "pdf派",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://www.pdfpai.com/"
+    },
+    {
+      "id": 1013,
+      "name": "smallpdf",
+      "desc": "",
+      "category": "图文处理",
+      "url": "https://smallpdf.com/cn/pdf-tools"
+    },
+    {
+      "id": 1101,
+      "name": "码上游",
+      "desc": "",
+      "category": "在线设计",
+      "url": "https://ma3you.com/"
+    },
+    {
+      "id": 1102,
+      "name": "云朵字生成器",
+      "desc": "",
+      "category": "在线设计",
+      "url": "https://edui123.com/ydz/"
+    },
+    {
+      "id": 1103,
+      "name": "纸由我",
+      "desc": "各种打印纸模版",
+      "category": "在线设计",
+      "url": "https://paperme.toolooz.com/"
+    },
+    {
+      "id": 1104,
+      "name": "金山文档在线版",
+      "desc": "可以在ppt插入html代码",
+      "category": "在线设计",
+      "url": "https://www.kdocs.cn"
+    },
+    {
+      "id": 1105,
+      "name": "手写体生成",
+      "desc": "",
+      "category": "在线设计",
+      "url": "https://vtool.pro/handwriting/heditor.html"
+    },
+    {
+      "id": 1106,
+      "name": "html2web",
+      "desc": "HTML2WEB，把你的代码编程网站",
+      "category": "在线设计",
+      "url": "https://www.html2web.com/"
+    },
+    {
+      "id": 1107,
+      "name": "字体下载",
+      "desc": "商用字体下载",
+      "category": "在线设计",
+      "url": "https://font.icu/"
+    },
+    {
+      "id": 1201,
+      "name": "音频工具",
+      "desc": "剪辑、去人声、变调",
+      "category": "音视频处理",
+      "url": "https://vocalremover.org/zh/"
+    },
+    {
+      "id": 1202,
+      "name": "格式转换",
+      "desc": "文档、视频、图片格式转换",
+      "category": "音视频处理",
+      "url": "https://www.aconvert.com/cn/"
+    },
+    {
+      "id": 1203,
+      "name": "短视频下载",
+      "desc": "",
+      "category": "音视频处理",
+      "url": "https://xbeibeix.com/app/"
+    },
+    {
+      "id": 1204,
+      "name": "在线音视频处理",
+      "desc": "",
+      "category": "音视频处理",
+      "url": "https://www.67tool.com/"
+    },
+    {
+      "id": 1301,
+      "name": "puresys绿色软件系统",
+      "desc": "puresys绿色软件系统",
+      "category": "装机维护",
+      "url": "https://www.puresys.net/"
+    },
+    {
+      "id": 1302,
+      "name": "UOS维护工具",
+      "desc": "国产系统改密码、解锁",
+      "category": "装机维护",
+      "url": "http://livecd.uostools.com/"
+    },
+    {
+      "id": 1303,
+      "name": "无忧启动",
+      "desc": "",
+      "category": "装机维护",
+      "url": "http://bbs.wuyou.net/"
+    },
+    {
+      "id": 1304,
+      "name": "吾爱破解",
+      "desc": "",
+      "category": "装机维护",
+      "url": "https://www.52pojie.cn/"
+    },
+    {
+      "id": 1305,
+      "name": "腾讯软件中心",
+      "desc": "",
+      "category": "装机维护",
+      "url": "https://pc.qq.com/category/c0.html"
+    },
+    {
+      "id": 1306,
+      "name": "423Down",
+      "desc": "软件下载",
+      "category": "装机维护",
+      "url": "https://www.423down.com/"
+    },
+    {
+      "id": 1307,
+      "name": "天翼云盘解析",
+      "desc": "免客户端下载",
+      "category": "装机维护",
+      "url": "https://189.ly93.cc/"
+    },
+    {
+      "id": 1308,
+      "name": "HEU KMS Activator",
+      "desc": "系统激活",
+      "category": "装机维护",
+      "url": "https://github.com/zbezj/HEU_KMS_Activator/releases"
+    },
+    {
+      "id": 1309,
+      "name": "Microsoft-Activation-Scripts",
+      "desc": "系统激活",
+      "category": "装机维护",
+      "url": "https://github.com/massgravel/Microsoft-Activation-Scripts"
+    },
+    {
+      "id": 1310,
+      "name": "win10系统下载",
+      "desc": "win10系统下载",
+      "category": "装机维护",
+      "url": "https://iwin10.net/"
+    },
+    {
+      "id": 1311,
+      "name": "Y-OS",
+      "desc": "",
+      "category": "装机维护",
+      "url": "http://y-os.net/"
+    },
+    {
+      "id": 1312,
+      "name": "hellowindows",
+      "desc": "",
+      "category": "装机维护",
+      "url": "https://hellowindows.cn/"
+    },
+    {
+      "id": 1313,
+      "name": "next.itellyou.cn",
+      "desc": "",
+      "category": "装机维护",
+      "url": "https://next.itellyou.cn/"
+    }
+  ],
+  "categories": [
+    {
+      "id": 11,
+      "name": "科学资源",
+      "icon": "🔬"
+    },
+    {
+      "id": 12,
+      "name": "AI写作",
+      "icon": "✍️"
+    },
+    {
+      "id": 13,
+      "name": "AI图像",
+      "icon": "🖼️"
+    },
+    {
+      "id": 14,
+      "name": "AI视频",
+      "icon": "🎬"
+    },
+    {
+      "id": 15,
+      "name": "AI数字人",
+      "icon": "🤖"
+    },
+    {
+      "id": 16,
+      "name": "教学资源",
+      "icon": "📚"
+    },
+    {
+      "id": 17,
+      "name": "教师提升",
+      "icon": "📈"
+    },
+    {
+      "id": 18,
+      "name": "教学软件",
+      "icon": "💻"
+    },
+    {
+      "id": 19,
+      "name": "科创类赛事",
+      "icon": "🏆"
+    },
+    {
+      "id": 20,
+      "name": "图文处理",
+      "icon": "📷"
+    },
+    {
+      "id": 21,
+      "name": "在线设计",
+      "icon": "🎨"
+    },
+    {
+      "id": 22,
+      "name": "音视频处理",
+      "icon": "🎵"
+    },
+    {
+      "id": 23,
+      "name": "装机维护",
+      "icon": "🔧"
+    }
+  ],
+  "favorites": [],
+  "visitCount": 0
+}

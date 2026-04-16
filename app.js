@@ -263,7 +263,12 @@ document.addEventListener('DOMContentLoaded', () => {
 // 加载/保存数据
 function loadData() {
     const s = localStorage.getItem('web-navigator-data');
-    return s ? { ...DEFAULT_DATA, ...JSON.parse(s) } : { ...DEFAULT_DATA };
+    return s ? JSON.parse(s) : {
+        sites: [],
+        categories: [],
+        favorites: [],
+        visitCount: 0
+    };
 }
 
 function saveData() {
