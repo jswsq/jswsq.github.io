@@ -726,13 +726,16 @@ a { color: var(--accent); text-decoration: none; }
         flex-direction: column;
     }
     
-    /* 分类栏优化 */
+    /* 分类栏优化 - 固定在顶部 */
     .home-sidebar {
         width: 100%;
         border-right: none;
         border-bottom: 1px solid var(--border);
-        padding: 16px 12px;
-        position: static;
+        padding: 12px 12px 8px;
+        position: sticky;
+        top: 0;
+        z-index: 90;
+        background: var(--bg);
         max-height: none;
     }
     
