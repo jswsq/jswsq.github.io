@@ -1,32 +1,8 @@
 // 极简网址导航 - 数据与逻辑
 
 const DEFAULT_DATA = {
-    sites: [
-        { id: 4, name: '淘宝', desc: '购物平台', category: '电商', url: 'https://www.taobao.com' },
-        { id: 5, name: '京东', desc: '综合购物', category: '电商', url: 'https://www.jd.com' },
-        { id: 6, name: '拼多多', desc: '社交电商', category: '电商', url: 'https://www.pinduoduo.com' },
-        { id: 7, name: '微博', desc: '社交媒体', category: '社交', url: 'https://weibo.com' },
-        { id: 8, name: '微信', desc: '即时通讯', category: '社交', url: 'https://weixin.qq.com' },
-        { id: 9, name: '抖音', desc: '短视频', category: '视频', url: 'https://www.douyin.com' },
-        { id: 10, name: 'B站', desc: '视频弹幕', category: '视频', url: 'https://www.bilibili.com' },
-        { id: 11, name: 'YouTube', desc: '视频网站', category: '视频', url: 'https://www.youtube.com' },
-        { id: 12, name: '知乎', desc: '问答社区', category: '社区', url: 'https://www.zhihu.com' },
-        { id: 13, name: 'GitHub', desc: '代码托管', category: '开发', url: 'https://github.com' },
-        { id: 14, name: 'Stack Overflow', desc: '技术问答', category: '开发', url: 'https://stackoverflow.com' },
-        { id: 15, name: '网易云音乐', desc: '音乐播放', category: '音乐', url: 'https://music.163.com' },
-        { id: 16, name: 'QQ音乐', desc: '音乐平台', category: '音乐', url: 'https://y.qq.com' },
-        { id: 17, name: '小红书', desc: '生活方式', category: '社区', url: 'https://www.xiaohongshu.com' },
-        { id: 18, name: '今日头条', desc: '资讯推荐', category: '资讯', url: 'https://www.toutiao.com' },
-    ],
-    categories: [
-        { id: 2, name: '电商', icon: '🛒' },
-        { id: 3, name: '社交', icon: '💬' },
-        { id: 4, name: '视频', icon: '🎬' },
-        { id: 5, name: '社区', icon: '🏠' },
-        { id: 6, name: '开发', icon: '💻' },
-        { id: 7, name: '音乐', icon: '🎵' },
-        { id: 8, name: '资讯', icon: '📰' },
-    ],
+    sites: [],
+    categories: [],
     favorites: [],
     visitCount: 0
 };
@@ -249,13 +225,11 @@ function importTeacherData() {
 
 // 初始化时导入教师数据
 document.addEventListener('DOMContentLoaded', () => {
-    // 清除旧数据，确保移除搜索分类
-    localStorage.removeItem('web-navigator-data');
-    localStorage.removeItem('teacher-data-imported');
-    
-    // 导入教师数据
-    importTeacherData();
-    localStorage.setItem('teacher-data-imported', 'true');
+    // 检查是否已导入
+    if (!localStorage.getItem('teacher-data-imported')) {
+        importTeacherData();
+        localStorage.setItem('teacher-data-imported', 'true');
+    }
 });
 
 // 加载/保存数据
