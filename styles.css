@@ -733,7 +733,7 @@ a { color: var(--accent); text-decoration: none; }
         border-bottom: 1px solid var(--border);
         padding: 12px 12px 8px;
         position: sticky;
-        top: 0;
+        top: 57px; /* 固定在 header 下方 */
         z-index: 90;
         background: var(--bg);
         max-height: none;
@@ -840,7 +840,7 @@ a { color: var(--accent); text-decoration: none; }
     
     /* 工具网格 */
     .tool-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
     
@@ -872,6 +872,10 @@ a { color: var(--accent); text-decoration: none; }
     /* 分类栏 */
     .home-sidebar {
         padding: 12px 8px;
+        position: sticky;
+        top: 57px; /* 固定在 header 下方 */
+        z-index: 90;
+        background: var(--bg);
     }
     
     .home-sidebar .cat-item {
