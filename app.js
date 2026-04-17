@@ -2,9 +2,6 @@
 
 const DEFAULT_DATA = {
     sites: [
-        { id: 1, name: '百度', desc: '搜索引擎', category: '搜索', url: 'https://www.baidu.com' },
-        { id: 2, name: 'Google', desc: '搜索引擎', category: '搜索', url: 'https://www.google.com' },
-        { id: 3, name: 'Bing', desc: '微软搜索引擎', category: '搜索', url: 'https://www.bing.com' },
         { id: 4, name: '淘宝', desc: '购物平台', category: '电商', url: 'https://www.taobao.com' },
         { id: 5, name: '京东', desc: '综合购物', category: '电商', url: 'https://www.jd.com' },
         { id: 6, name: '拼多多', desc: '社交电商', category: '电商', url: 'https://www.pinduoduo.com' },
@@ -22,7 +19,6 @@ const DEFAULT_DATA = {
         { id: 18, name: '今日头条', desc: '资讯推荐', category: '资讯', url: 'https://www.toutiao.com' },
     ],
     categories: [
-        { id: 1, name: '搜索', icon: '🔍' },
         { id: 2, name: '电商', icon: '🛒' },
         { id: 3, name: '社交', icon: '💬' },
         { id: 4, name: '视频', icon: '🎬' },
@@ -253,16 +249,19 @@ function importTeacherData() {
 
 // 初始化时导入教师数据
 document.addEventListener('DOMContentLoaded', () => {
-    // 检查是否已导入
-    if (!localStorage.getItem('teacher-data-imported')) {
-        importTeacherData();
-        localStorage.setItem('teacher-data-imported', 'true');
-    }
+    // 清除旧数据，确保移除搜索分类
+    localStorage.removeItem('web-navigator-data');
+    localStorage.removeItem('teacher-data-imported');
+    
+    // 导入教师数据
+    importTeacherData();
+    localStorage.setItem('teacher-data-imported', 'true');
 });
 
 // 加载/保存数据
 function loadData() {
     const s = localStorage.getItem('web-navigator-data');
+    // 直接返回空数据结构，不使用默认数据
     return s ? JSON.parse(s) : {
         sites: [],
         categories: [],

@@ -164,6 +164,54 @@ a { color: var(--accent); text-decoration: none; }
 
 .site-fav:hover, .site-fav.active { opacity: 1; }
 
+/* 移动端工具卡片优化 */
+@media (max-width: 768px) {
+    .site-card {
+        padding: 16px;
+        gap: 14px;
+    }
+    
+    .site-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+    }
+    
+    .site-name {
+        font-size: 15px;
+    }
+    
+    .site-desc {
+        font-size: 13px;
+    }
+    
+    .site-fav {
+        font-size: 18px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-card {
+        padding: 14px;
+        gap: 12px;
+    }
+    
+    .site-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .site-name {
+        font-size: 14px;
+    }
+    
+    .site-desc {
+        font-size: 12px;
+    }
+}
+
 /* 空状态 */
 .empty {
     text-align: center;
@@ -294,6 +342,57 @@ a { color: var(--accent); text-decoration: none; }
     border-radius: 6px;
     font-size: 18px;
     cursor: pointer;
+}
+
+/* 移动端模态框优化 */
+@media (max-width: 768px) {
+    .modal {
+        padding: 20px;
+    }
+    
+    .modal-content {
+        margin: 0;
+        max-height: calc(100vh - 40px);
+        border-radius: 12px;
+    }
+    
+    .modal-close {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 16px;
+    }
+    
+    .modal-content {
+        padding: 20px;
+        max-height: calc(100vh - 32px);
+    }
+    
+    .modal-content h3 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 12px 14px;
+        font-size: 15px;
+    }
+    
+    .form-actions {
+        gap: 10px;
+    }
+    
+    .form-actions .btn {
+        flex: 1;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
 }
 
 /* 管理后台 */
@@ -584,16 +683,286 @@ a { color: var(--accent); text-decoration: none; }
 
 /* 响应式 */
 @media (max-width: 768px) {
-    .header-inner { flex-wrap: wrap; }
-    .search { order: 3; width: 100%; }
-    .tool-grid { grid-template-columns: repeat(2, 1fr); }
-    .admin-panel { width: 100%; height: 100%; max-height: 100%; border-radius: 0; }
-    .main-container { flex-direction: column; }
-    .home-sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); }
-    .home-sidebar .cat-list { flex-direction: row; flex-wrap: wrap; }
-    .home-sidebar .cat-item { width: auto; }
+    /* 导航栏优化 */
+    .header {
+        padding: 10px 16px;
+    }
+    
+    .header-inner {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    
+    .logo {
+        font-size: 16px;
+    }
+    
+    .search {
+        order: 3;
+        width: 100%;
+    }
+    
+    .search input {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    
+    .header-actions {
+        gap: 6px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    /* 主内容优化 */
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .main-container {
+        flex-direction: column;
+    }
+    
+    /* 分类栏优化 */
+    .home-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 16px 12px;
+        position: static;
+        max-height: none;
+    }
+    
+    .home-sidebar .cat-list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: auto;
+        padding-bottom: 8px;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    
+    .home-sidebar .cat-list::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari and Opera */
+    }
+    
+    .home-sidebar .cat-item {
+        width: auto;
+        white-space: nowrap;
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+    
+    /* 分类标题优化 */
+    .sidebar-title {
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding-left: 4px;
+    }
+    
+    /* 主内容区 */
+    .main {
+        padding: 16px;
+    }
+    
+    /* 空状态 */
+    .empty {
+        padding: 40px 20px;
+    }
+    
+    .empty p {
+        font-size: 14px;
+    }
+    
+    /* 分页 */
+    .pagination {
+        padding: 16px;
+        gap: 4px;
+    }
+    
+    .page-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+    
+    /* 页脚 */
+    .footer {
+        padding: 20px 16px;
+        font-size: 12px;
+    }
+    
+    /* 管理面板 */
+    .admin-panel {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        border-radius: 0;
+    }
+    
+    /* 模态框 */
+    .modal-content {
+        margin: 0;
+        max-height: calc(100vh - 40px);
+    }
 }
 
 @media (max-width: 480px) {
-    .tool-grid { grid-template-columns: 1fr; }
+    /* 导航栏进一步优化 */
+    .header {
+        padding: 8px 12px;
+    }
+    
+    .header-inner {
+        gap: 8px;
+    }
+    
+    .logo {
+        font-size: 15px;
+    }
+    
+    .search input {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+    
+    .btn {
+        padding: 7px 14px;
+        font-size: 13px;
+    }
+    
+    /* 工具网格 */
+    .tool-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    /* 主内容区 */
+    .main {
+        padding: 12px;
+    }
+    
+    /* 网站卡片 */
+    .site-card {
+        padding: 14px;
+        gap: 12px;
+    }
+    
+    .site-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .site-name {
+        font-size: 14px;
+    }
+    
+    .site-desc {
+        font-size: 12px;
+    }
+    
+    /* 分类栏 */
+    .home-sidebar {
+        padding: 12px 8px;
+    }
+    
+    .home-sidebar .cat-item {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+    
+    /* 空状态 */
+    .empty {
+        padding: 30px 16px;
+    }
+    
+    .empty p {
+        font-size: 13px;
+    }
+    
+    /* 分页 */
+    .pagination {
+        padding: 12px;
+        gap: 3px;
+    }
+    
+    .page-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+    
+    /* 页脚 */
+    .footer {
+        padding: 16px 12px;
+        font-size: 11px;
+    }
+    
+    /* 模态框 */
+    .modal-content {
+        padding: 20px;
+        max-height: calc(100vh - 32px);
+    }
+    
+    .modal-content h3 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 12px 14px;
+        font-size: 15px;
+    }
+    
+    .form-actions {
+        gap: 10px;
+    }
+    
+    .form-actions .btn {
+        flex: 1;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    
+    /* 管理后台 */
+    .admin-body {
+        flex-direction: column;
+    }
+    
+    .admin-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 12px;
+    }
+    
+    .admin-main {
+        padding: 12px;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    /* 管理后台表格 */
+    .table {
+        font-size: 12px;
+    }
+    
+    .table th,
+    .table td {
+        padding: 8px 6px;
+    }
+    
+    .table-actions button {
+        padding: 3px 8px;
+        font-size: 11px;
+    }
 }
